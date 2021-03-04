@@ -8,18 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css" />
+    <script src="static/js/index.js"></script>
     <title>Brandon Fischer Photography</title>
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('index') }}">HOME</a></li>
-            <li><a href="{{ url_for('about') }}">ABOUT</a></li>
-            <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
-        </ul>
-    </nav>
+    <!-- Nav Bar -->
+	{% include 'components/navbar.html' %}
 
     {% block content %}
     {% endblock %}
