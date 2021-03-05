@@ -10,14 +10,30 @@ def index():
     return render_template("pages/index.html")
 
 
-@app.route("/about")
-def about():
-    return render_template("pages/about.html")
+@app.route("/biography")
+def biography():
+    return render_template("pages/biography.html")
+
+
+@app.route("/exteriors")
+def exteriors():
+    return render_template("pages/exteriors.html")
+
+
+@app.route("/interiors")
+def interiors():
+    return render_template("pages/interiors.html")
+
+
+@app.route("/video")
+def video():
+    return render_template("pages/video.html")
 
 
 @app.route("/contact")
 def contact():
     return render_template("pages/contact.html")
+
 
 
 if __name__ == "__main__":
