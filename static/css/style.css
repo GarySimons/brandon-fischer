@@ -16,3 +16,98 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
+
+
+/* Navbar */
+
+#navbar-nav-dropdown {
+    font-size: 1rem;
+}
+
+#navigation-bar {
+    position: sticky;
+    width: 100vw;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    padding-right: 1rem;
+    z-index: 2;
+    background-color: #fff !important;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    color: #000 !important;
+    letter-spacing: 0.6rem;
+    font-weight: 800;
+    line-height: 1rem;
+}
+
+.nav-link {
+    font-size: .9rem;
+    color: #000 !important;
+    text-align: right !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: .1s ease-in-out;
+}
+
+/* Home Page */
+
+#home {
+    background-color: yellow;
+    height: 85vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    background-size: cover;
+    justify-content: center;
+}
+
+#name {
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: 800;
+}
+
+#strapline {
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: 800;
+}
+
+/* General styles */
+
+.page-title {
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #fff;
+    position: relative;
+    padding-top: 1rem;
+    margin-top: auto;
+    text-align: center !important;
+}
+
+#copyright {
+    color: #000;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: -1rem;
+}
