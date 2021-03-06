@@ -2,22 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css" />
-    <script src="static/js/index.js"></script>
-    <title>Brandon Fischer Photography</title>
+    <!-- Head -->
+    {% include 'layout/head.html' %}
+
+	{% if title %}
+	<title>Brandon Fischer - {{ title }}</title>
+	{% else %}
+	<title>Brandon Fischer</title>
+    {% endif %}
 </head>
 
 <body>
     <!-- Nav Bar -->
 	{% include 'components/navbar.html' %}
 
+    <!-- code block -->
     {% block content %}
     {% endblock %}
+
+    <!-- Scripts -->
+	{% include 'layout/scripts.html' %}
 
 </body>
 

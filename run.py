@@ -12,27 +12,27 @@ def index():
 
 @app.route("/biography")
 def biography():
-    return render_template("pages/biography.html")
+    return render_template("pages/biography.html", title='Biography')
 
 
 @app.route("/exteriors")
 def exteriors():
-    return render_template("pages/exteriors.html")
+    return render_template("pages/exteriors.html", title='Exteriors')
 
 
 @app.route("/interiors")
 def interiors():
-    return render_template("pages/interiors.html")
+    return render_template("pages/interiors.html", title='Interiors')
 
 
 @app.route("/video")
 def video():
-    return render_template("pages/video.html")
+    return render_template("pages/video.html", title='Video')
 
 
 @app.route("/contact")
 def contact():
-    return render_template("pages/contact.html")
+    return render_template("pages/contact.html", title='Contact')
 
 
 
