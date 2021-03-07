@@ -1,7 +1,7 @@
 {% extends "layout/base.html" %}
 {% block content %}
 
-<div class="row justify-content-center" id="home">
+<div class="row justify-content-center d-none d-md-block" id="home">
     <div class="col-12">
         <h1 id="name">BF</h1>
         <h2 id="strapline">ARCHITECTURAL PHOTOGRAPHY</h2>
@@ -10,6 +10,13 @@
     <video id="videoBG" poster="static/images/video-load-image.jpg" autoplay muted loop>
         <source src="{{url_for('static', filename='video/home-video.mp4')}}" type="video/mp4">
     </video>
+</div>
+
+<div class="row justify-content-center .d-lg-none .d-xl-block" id="home-mobile">
+    <div class="col-12">
+        <p id="name-mobile">BF</p>
+        <p id="strapline-mobile">ARCHITECTURAL PHOTOGRAPHY</p>
+    </div>
 </div>
 
 {% endblock %}
