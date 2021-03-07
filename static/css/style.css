@@ -55,10 +55,36 @@ body {
     transition: .1s ease-in-out;
 }
 
+
+/* Video BG */
+#videoBG {
+    position: fixed;
+    z-index: -2;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+}
+
 /* Home Page */
 
 #home {
-    background-color: yellow;
     height: 85vh;
     width: 100vw;
     overflow-x: hidden;
