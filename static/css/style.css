@@ -80,6 +80,10 @@ body {
     #videoBG {
         display: none;
     }
+    body {
+        background-image: src="static/images/video-load-image.jpg";
+        background-size: cover;
+    }
 }
 
 /* Home Page */
