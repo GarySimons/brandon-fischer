@@ -1,22 +1,27 @@
 {% extends "layout/base.html" %}
 {% block content %}
 
-<div class="row justify-content-center d-none d-md-block" id="home">
-    <div class="col-12">
-        <h1 id="name">BF</h1>
-        <h2 id="strapline">ARCHITECTURAL PHOTOGRAPHY</h2>
+<!--
+<div class="row justify-content-center .d-none .d-md-block .d-xl-none" id="home">
+    <div class=".d-none .d-md-block .d-xl-none">
+        <h1 id="name" class="justify-content-center">BF</h1>
+        <h2 id="strapline" class="justify-content-center">ARCHITECTURAL <br> PHOTOGRAPHY</h2>
     </div>
-
     <video id="videoBG" poster="static/images/video-load-image.jpg" autoplay muted loop>
         <source src="{{url_for('static', filename='video/home-video.mp4')}}" type="video/mp4">
     </video>
 </div>
+-->
 
-<div class="row justify-content-center .d-lg-none .d-xl-block" id="home-mobile">
-    <div class="col-12">
+<div class="row justify-content-center d-sm-none" id="introcontainer">
+    <div class="col-12 d-sm-none">
         <p id="name-mobile">BF</p>
         <p id="strapline-mobile">ARCHITECTURAL PHOTOGRAPHY</p>
     </div>
+    <div class="row justify-content-center">
+    <img src="{{url_for('static', filename='images/video-load-image.jpg')}}" alt="Background">
+</div>
+
 </div>
 
 {% endblock %}

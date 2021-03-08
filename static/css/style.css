@@ -76,17 +76,28 @@ body {
     }
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     #videoBG {
         display: none;
     }
-    body {
-        background-image: src="static/images/video-load-image.jpg";
-        background-size: cover;
-    }
-} */
+} 
 
 /* Home Page */
+
+#introcontainer {
+    height: 80vh;
+    width: 100vw;
+
+    position: relative;
+    margin-top: -4.5rem;
+    
+    background: url('static/images/video-load-image.jpg') no-repeat center center; 
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+}
+
 
 #home {
     height: 100vh;
@@ -107,7 +118,7 @@ body {
 }
 
 #name {
-    color: #fff;
+    color: green;
     font-size: 20rem;
     text-align: center;
     letter-spacing: 1rem;
@@ -115,7 +126,7 @@ body {
 }
 
 #name-mobile {
-    color: #fff;
+    color: yellow;
     font-size: 10rem;
     text-align: center;
     letter-spacing: 1rem;
@@ -123,7 +134,7 @@ body {
 }
 
 #strapline {
-    color: #fff;
+    color: green;
     font-size: 4rem;
     text-align: center;
     letter-spacing: 1rem;
