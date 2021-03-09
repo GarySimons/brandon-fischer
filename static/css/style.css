@@ -71,7 +71,6 @@ body {
     justify-content: center;
 }
 
-
 #home {
     background-color: #000;
     z-index: -2;
@@ -84,43 +83,18 @@ body {
     justify-content: center;
 }
 
-#home-mobile {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    position: relative;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-}
-
 #name {
     color: #fff;
-    font-size: 18rem;
+    font-size: 15rem;
     text-align: center;
     letter-spacing: 1rem;
     font-weight: 800;
-}
-
-#name-mobile {
-    color: yellow;
-    font-size: 10rem;
-    text-align: center;
-    letter-spacing: 1rem;
-    font-weight: 800;
+    margin-bottom: -2rem;
 }
 
 #strapline {
     color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1rem;
-    font-weight: 800;
-}
-
-#strapline-mobile {
-    color: yellow;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1rem;
     font-weight: 800;
@@ -129,6 +103,7 @@ body {
 /* Video BG */
 
 #videoBG {
+    background-size: cover;
     position: fixed;
     z-index: -1;
 }
@@ -151,22 +126,16 @@ body {
     #videoBG {
         display: none;
     }
-} 
-
-@media (max-width: 767px) {
-    body {
-        background: src=("{{url_for('static', filename='images/video-load-image.jpg')}}") no-repeat center center;
+    #home {
+        background-color: #000;
+        width: 105vw;
+        height: 94vh;
     }
-}   
-
-@media (max-width: 767px) {
     #name {
        color: #fff;
-       font-size: 5rem;
+       font-size: 9rem;
+       margin-bottom: 0.25rem;
     }
-} 
-
-@media (max-width: 767px) {
     #strapline {
        color: #fff;
        font-size: 1rem;
