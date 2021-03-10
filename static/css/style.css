@@ -154,11 +154,43 @@ body {
     margin-top: 1rem;
 }
 
+/* Contact Page */
+
+contact-page {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    overflow-x: hidden;    
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-page {
+    background: url("{{url_for('static', filename='images/exterior-2.jpg')}}") no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    background-color: aquamarine;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -5;
+}
+
+.contact-details {
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    font-weight: 800;
+    align-items: center;
+}
 
 /* Footer */
 
 footer {
-    background-color: #fff;
+    background-color: none;
     position: relative;
     padding-top: 1rem;
     margin-top: auto;

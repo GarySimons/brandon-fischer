@@ -1,8 +1,33 @@
 {% extends "layout/base.html" %}
 {% block content %}
+<div class="row row justify-content-center">
     <h3 class="page-title">CONTACT</h3>
+</div>
 
-<!-- Footer -->
+<div class="row justify-content-center col-12" id="contact-page">
+    <div class="col-12">
+        <div class="col-12">
+            <img src="{{url_for('static', filename='images/exterior-2.jpg')}}" alt="Contact Background" class="img-fluid">
+        </div>
+
+        <div class="row justify-content-center col-12">
+				<a href="#" target="_blank" aria-label="Contact phone number" rel="noopener">
+					<p class="contact-details">+44(0) 798 0981</p>
+					<span class="sr-only">+44(0) 798 0981</span>
+				</a>
+        </div>
+        <div class="row justify-content-center col-12">
+				<a href="#" target="_blank" aria-label="Email address" rel="noopener">
+					<p class="contact-details">info@brandonfischer.com</p>
+					<span class="sr-only">info@brandonfischer.com</span>
+				</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
 {% include 'components/footer.html' %}
+
+</div>
+    
 
 {% endblock %}
