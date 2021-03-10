@@ -155,22 +155,31 @@ body {
 }
 
 .image-page-container {
-    background-color: green;
+    background-color: #fff;
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     top: 0;
     left: 0;
     position: relative;
     overflow-x: hidden;    
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .image-caption {
-    color: yellow;
-    font-size: 1rem;
+    color: #000;
+    font-size: 0.8rem;
     font-weight: 300;
-    margin-top: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.carousel-control-prev-icon {
+    color: #000;
+}
+
+.carousel-control-next-icon {
+    color: #000;
 }
 
 /* Contact Page */
