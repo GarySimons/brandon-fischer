@@ -64,7 +64,6 @@ body {
     position: relative;
     margin-top: -4.5rem;
     overflow-x: hidden;
-    background: url('static/images/video-load-image.jpg') no-repeat center center; 
     background-size: cover;
     
     align-items: center;
@@ -156,26 +155,17 @@ body {
 
 /* Contact Page */
 
-contact-page {
-    background-color: aquamarine;
+#contact-page-container {
+    background-color: yellow;
     width: 100vw;
-    height: 85vh;
+    height: 95vh;
+    top: 0;
+    left: 0;
+    right: 0;
     position: relative;
     overflow-x: hidden;    
     align-items: center;
     justify-content: center;
-}
-
-#contact-page {
-    background: url("{{url_for('static', filename='images/exterior-2.jpg')}}") no-repeat center center fixed;
-    background-size: cover;
-    height: auto;
-    background-color: aquamarine;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: -5;
 }
 
 .contact-details {
