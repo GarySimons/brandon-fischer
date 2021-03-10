@@ -13,7 +13,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     height: 100vh;
-    width: 100vw;
+    width: 102vw;
     overflow-x: hidden;
 }
 
@@ -151,6 +151,7 @@ body {
     letter-spacing: 1rem;
     font-weight: 800;
     margin-top: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 /* Contact Page */
@@ -158,23 +159,37 @@ body {
 #contact-page-container {
     background-color: yellow;
     width: 100vw;
-    height: 95vh;
+    height: 86vh;
     top: 0;
     left: 0;
-    right: 0;
     position: relative;
     overflow-x: hidden;    
     align-items: center;
     justify-content: center;
 }
 
+#page-title-contents {
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: 800;
+    margin-top: -9.2rem;
+}
+
 .contact-details {
     color: #000;
     font-size: 1rem;
-    text-align: center;
+    text-align: center !important;
+    align-items: center;
     letter-spacing: 0.25rem;
     font-weight: 800;
-    align-items: center;
+}
+
+.contact-image {
+    width: 30rem;
+    height: auto;
+    margin-bottom: 3rem;
 }
 
 /* Footer */
