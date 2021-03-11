@@ -179,7 +179,7 @@ body {
 }
 
 .carousel-control-next-icon {
-    color: #000;
+    color: #000 !important;
 }
 
 /* Contact Page */
@@ -220,6 +220,8 @@ body {
     height: auto;
     margin-bottom: 3rem;
 }
+
+/* CSS from tutorial: HTML, CSS, JS */
 
 .carousel-container {
     width: 45%;

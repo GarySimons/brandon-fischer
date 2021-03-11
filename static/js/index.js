@@ -1,11 +1,10 @@
-// select carouselSlide div
 const carouselSlide = document.querySelector('.carousel-slide');
 // select all images
-const carouselImages = document.querySelectorAll('.carouselSlide img');
+const carouselImages = document.querySelectorAll('.carousel-slide img');
 
 // Buttons
-const prevBtn = document.querySelector('#prev-btn');
-const nextBtn = document.querySelector('#next-btn');
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
 
 // Counter
 // select a slide
@@ -16,3 +15,10 @@ const size = carouselImages[0].clientWidth;
 // create slide that starts on image 1 rather than clone and moves on the x the size of image
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
+// Button listeners
+nextBtn.addEventListener('click',()=>{
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    // adds 1 to counter
+    counter++;
+    console.log(carouselSlide);
+});
