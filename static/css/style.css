@@ -221,6 +221,18 @@ body {
     margin-bottom: 3rem;
 }
 
+/* Video Page */
+
+#video-container {
+    background-color: aqua;
+}
+
+.video-box {
+    background-color: blueviolet;
+    height: 80vh;
+    width: 100vw;
+}
+
 /* CSS from tutorial: HTML, CSS, JS */
 
 .carousel-container {
