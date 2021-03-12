@@ -224,13 +224,19 @@ body {
 /* Video Page */
 
 #video-container {
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .video-box {
-    background-color: blueviolet;
     height: 80vh;
     width: 100vw;
+    align-items: center;
+}
+
+.slide-image {
+    max-height: 40rem;
+    width: auto;
+    align-items: center !important;
 }
 
 /* CSS from tutorial: HTML, CSS, JS */
