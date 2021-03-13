@@ -13,7 +13,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     height: 100vh;
-    width: 102vw;
+    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -30,7 +30,6 @@ body {
     overflow-x: hidden;
     top: 0;
     left: 0;
-    padding-right: 1rem;
     z-index: 2;
     background-color: #fff !important;
     letter-spacing: 0.1rem;
@@ -155,13 +154,12 @@ body {
 }
 
 .image-page-container {
-    background-color: #fff;
+    background-color: pink;
     width: 100vw;
     height: 75vh;
     top: 0;
     left: 0;
     position: relative;
-    overflow-x: hidden;    
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
@@ -183,6 +181,9 @@ body {
     color: #000 !important;
 }
 
+.carousel-control-prev {
+    color: red;
+}
 /* Contact Page */
 
 #contact-page-container {
@@ -226,27 +227,17 @@ body {
 
 #video-container {
     background-color: lawngreen;
-    height: 90vh;
-
+    height: 85vh;
     position: relative;
-    
     background-size: cover;
-
-    max-height: 90vh;
-    
     align-items: center;
     justify-content: center;
-
     top: 0;
     left: 0;  
 }
 
-# {
-    background-color: greenyellow;
-}
-
 .video-box {
-    background-color: hotpink;
+    background-color: lawngreen;
     height: 80vh;
     width: 100vw;
     align-items: center;
