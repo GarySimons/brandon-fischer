@@ -172,6 +172,7 @@ body {
     font-size: 0.8rem;
     font-weight: 300;
     margin-top: 0.3rem;
+    text-align: center;
 }
 
 .carousel-control-prev-icon {
@@ -224,18 +225,20 @@ body {
 /* Video Page */
 
 #video-container {
-    background-color: #fff;
+    background-color: greenyellow;
 }
 
 .video-box {
+    background-color: hotpink;
     height: 80vh;
     width: 100vw;
     align-items: center;
 }
 
 .slide-image {
+    margin: auto;
     max-height: 40rem;
-    width: auto;
+    height: auto;
     align-items: center !important;
 }
 
