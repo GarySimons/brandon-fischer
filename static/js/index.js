@@ -29,3 +29,19 @@ prevBtn.addEventListener('click',()=> {
     counter--;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
+
+// Transition End to loop back to start of slides when original transition ends 
+carouselSlide.addEventListener('transitionend', () => {
+    // Prev button
+    if (carouselImages[counter].id === 'lastClone') {
+        carouselSlide.style.transition = "none";
+        counter = carouselImages.length -2 ;
+        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    }
+    // Next button
+    if (carouselImages[counter].id === 'firstClone') {
+        carouselSlide.style.transition = "none";
+        counter = carouselImages.length - counter;
+        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    }
+});
