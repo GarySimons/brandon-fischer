@@ -253,9 +253,9 @@ body {
 /* CSS from tutorial: HTML, CSS, JS */
 
 .carousel-container {
-    width: 60%;
+    width: 48%;
     margin: auto;
-    border: 5px solid black;
+    overflow: hidden;
 }
 
 .carousel-slide {
