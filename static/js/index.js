@@ -17,6 +17,8 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
 // Button listeners
 nextBtn.addEventListener('click',()=> {
+    // Prevents the images not showing when clicking too fast
+    if (counter >= carouselImages.length -1) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
     // adds 1 to counter
     counter++;
@@ -24,6 +26,8 @@ nextBtn.addEventListener('click',()=> {
 });
 
 prevBtn.addEventListener('click',()=> {
+    // Prevents the images not showing when clicking too fast
+    if (counter <= 0) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
     // subtracts 1 from counter
     counter--;
