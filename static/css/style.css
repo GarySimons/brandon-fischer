@@ -250,29 +250,28 @@ body {
     align-items: center !important;
 }
 
-/* CSS from tutorial: HTML, CSS, JS */
+/* CSS from tutorial: HTML, CSS, JS https://www.youtube.com/watch?v=KcdBOoK3Pfw*/
 
 .carousel-container {
-    width: 48%;
+    width: 110%;
     margin: auto;
     overflow: hidden;
-    position: relative;
 }
 
 .carousel-slide {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: flex;
+    position: relative;
 }
 
 #prevBtn {
     position: absolute;
     top: 50%;
     z-index: 10;
-    left: 5%;
-    font-size: 2rem;
+    left: 15%;
+    font-size: 1.5rem;
     color: #000;
-    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -280,12 +279,29 @@ body {
     position: absolute;
     top: 50%;
     z-index: 10;
-    right: 5%;
-    font-size: 2rem;
+    right: 15%;
+    font-size: 1.5rem;
     color: #000;
-    opacity: 0.5;
     cursor: pointer;
 }
+
+/* Bio Page */
+
+#bio-container {
+    background-color: aquamarine;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.bio-div {
+    background-color: cadetblue;
+    padding: 0;
+}
+
 
 /* Footer */
 
