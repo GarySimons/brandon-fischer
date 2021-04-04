@@ -55,5 +55,6 @@ carouselSlide.addEventListener('transitionend', () => {
 
 
 
+
 // Code from Full Screen Responsive Image Slider | No Libraries
 // https://www.youtube.com/watch?v=wWWNrANNO1k
