@@ -72,7 +72,7 @@ body {
 
 #home {
     background-color: #000;
-    z-index: -2;
+    z-index: -10;
     height: 90vh;
     width: 100vw;
     overflow-x: hidden;
@@ -124,6 +124,7 @@ body {
 @media (max-width: 767px) {
     #videoBG {
         display: none;
+        background-image: img src="static/images/exterior-1.jpg";
     }
     #home {
         background-color: #000;
@@ -304,31 +305,12 @@ body {
 }
 
 
-/* Footer */
-
-footer {
-    background-color: none;
-    position: relative;
-    padding-top: 1rem;
-    margin-top: auto;
-    text-align: center !important;
-}
-
-#copyright {
-    color: #000;
-    font-size: 0.7rem;
-    text-align: center;
-    margin-top: -1rem;
-}
-
-
-
 /* From Tutorial https://www.youtube.com/watch?v=wWWNrANNO1k*/
 
 .slider {
   position: relative;
   overflow: hidden;
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
 }
 
@@ -348,7 +330,7 @@ footer {
 
 .slide .content {
   position: absolute;
-  bottom: 70px;
+  bottom: 0px;
   left: -200px;
   opacity: 0;
   width: 200px;
@@ -384,7 +366,7 @@ footer {
     background-color: transparent;
     color: #fff;
     cursor: pointer;
-    padding: 13px 15px;
+    padding: 15px 15px;
     outline: none;
 }
 
@@ -405,4 +387,24 @@ footer {
 }
 .slide:nth-child(4) {
     background: url('/static/images/exterior-4.jpg') no-repeat center center/cover;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: none;
+    position: relative;
+    padding-top: 1rem;
+    margin-top: auto;
+    text-align: center !important;
+}
+
+#copyright {
+    color: #000;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: -1rem;
 }
