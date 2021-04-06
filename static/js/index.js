@@ -1,5 +1,3 @@
-// JS from tutorial https://www.youtube.com/watch?v=KcdBOoK3Pfw
-
 const carouselSlide = document.querySelector('.carousel-slide');
 // select all images
 const carouselImages = document.querySelectorAll('.carousel-slide img');
