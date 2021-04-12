@@ -252,7 +252,7 @@ body {
     align-items: center !important;
 }
 
-/* CSS from tutorial: HTML, CSS, JS https://www.youtube.com/watch?v=KcdBOoK3Pfw*/
+/* CSS from tutorial: HTML, CSS, JS https://www.youtube.com/watch?v=KcdBOoK3Pfw
 
 .carousel-container {
     width: 110%;
@@ -286,6 +286,8 @@ body {
     color: #000;
     cursor: pointer;
 }
+
+*/
 
 /* Bio Page */
 
@@ -341,6 +343,7 @@ body {
 
 .slide .content p {
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .slide.current .content {
@@ -372,6 +375,10 @@ body {
 
 .buttons button:hover {
     background-color: rgba(255, 255, 255, 0.5);;
+}
+
+.slide-info {
+    color: red;
 }
 
 /* Slider images */
