@@ -292,7 +292,6 @@ body {
 /* Bio Page */
 
 #bio-container {
-    background-color: aquamarine;
     height: 87vh;
     position: relative;
     background-size: cover;
@@ -302,18 +301,18 @@ body {
 }
 
 .bio-div {
-    background-color: cadetblue;
     padding: 0;
-    height: 80vh;
-}
-
-.bio-text-top {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    max-height: fit-content;
 }
 
 .bio-text {
     margin-bottom: 1rem;
+}
+
+.bio-image {
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* testimonial */
