@@ -29,6 +29,10 @@ def interiors():
 def video():
     return render_template("pages/video.html", title='Video')
 
+@app.route("/testimonials")
+def testimonials():
+    return render_template("pages/testimonials.html", title='Testimonials')
+
 
 @app.route("/contact")
 def contact():

@@ -293,7 +293,7 @@ body {
 
 #bio-container {
     background-color: aquamarine;
-    height: 90vh;
+    height: 87vh;
     position: relative;
     background-size: cover;
     justify-content: center;
@@ -304,8 +304,29 @@ body {
 .bio-div {
     background-color: cadetblue;
     padding: 0;
+    height: 80vh;
 }
 
+.bio-text-top {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.bio-text {
+    margin-bottom: 1rem;
+}
+
+/* testimonial */
+
+#testimonial-container {
+    background-color: pink;
+    height: 87vh;
+    position: relative;
+    background-size: cover;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 0;
+}
 
 /* From Tutorial https://www.youtube.com/watch?v=wWWNrANNO1k*/
 
