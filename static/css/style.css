@@ -189,8 +189,8 @@ body {
 /* Contact Page */
 
 #contact-page-container {
-    background-image: img src="static/images/exterior-1.jpg";
-    background-color: yellow;
+    background: url('/static/images/exterior-01.jpg') no-repeat center center;
+    background-size: cover;
     width: 100vw;
     height: 86vh;
     top: 0;
@@ -217,6 +217,11 @@ body {
     align-items: center;
     letter-spacing: 0.25rem;
     font-weight: 800;
+}
+
+.contact-details:hover {
+    text-decoration: underline;
+    transition: .1s ease-in-out;
 }
 
 .contact-image {
