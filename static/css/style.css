@@ -189,10 +189,10 @@ body {
 /* Contact Page */
 
 #contact-page-container {
-    background: url('/static/images/exterior-01.jpg') no-repeat center center;
+    background: url('/static/images/contact-03.jpg') no-repeat center center;
     background-size: cover;
     width: 100vw;
-    height: 86vh;
+    height: 80vh;
     top: 0;
     left: 0;
     position: relative;
@@ -211,8 +211,8 @@ body {
 }
 
 .contact-details {
-    color: #000;
-    font-size: 1rem;
+    color: #fff;
+    font-size: 1.4rem;
     text-align: center !important;
     align-items: center;
     letter-spacing: 0.25rem;
@@ -224,11 +224,11 @@ body {
     transition: .1s ease-in-out;
 }
 
-.contact-image {
-    width: 30rem;
-    height: auto;
-    margin-bottom: 3rem;
-}
+@media (max-width: 767px) {
+    .contact-details {
+        font-size: 1rem;
+    }
+} 
 
 /* Video Page */
 
