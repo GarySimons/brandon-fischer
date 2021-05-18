@@ -125,7 +125,6 @@ body {
         display: none;
     }
     #home {
-        background: url('/static/images/video-load-image.jpg') no-repeat center center;
         width: 100vw;
         height: 94vh;
     }
@@ -433,17 +432,43 @@ background-color: rgba(255, 255, 255, 0.8);
 /* Slider images */
 
 .slide:first-child {
-    background: url('/static/images/exterior-1.jpg') no-repeat center center/cover;
+    background: url('/static/images/exterior-01.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(2) {
-    background: url('/static/images/exterior-2.jpg') no-repeat center center/cover;
+    background: url('/static/images/exterior-02.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(3) {
-    background: url('/static/images/exterior-3.jpg') no-repeat center center/cover;
+    background: url('/static/images/exterior-03.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(4) {
-    background: url('/static/images/exterior-4.jpg') no-repeat center center/cover;
+    background: url('/static/images/exterior-04.jpg') no-repeat center center/cover;
 }
+.slide:nth-child(5) {
+    background: url('/static/images/exterior-05.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(6) {
+    background: url('/static/images/exterior-06.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(7) {
+    background: url('/static/images/exterior-07.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(8) {
+    background: url('/static/images/exterior-08.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(9) {
+    background: url('/static/images/exterior-09.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(10) {
+    background: url('/static/images/exterior-10.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(11) {
+    background: url('/static/images/exterior-11.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(12) {
+    background: url('/static/images/exterior-12.jpg') no-repeat center center/cover;
+}
+
+
 
 
 /* Footer */
